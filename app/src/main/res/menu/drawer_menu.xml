@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_exhibitions"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Экспозиции" />
+        <item android:id="@+id/nav_shows"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="Выставки" />
+        <item android:id="@+id/nav_tours"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Экскурсии" />
+    </group>
+    <item android:title="Прочее">
+        <menu>
+            <item android:id="@+id/nav_tickets"
+                android:checkable="true"
+                android:icon="@android:drawable/ic_menu_agenda"
+                android:title="Билеты" />
+            <item android:id="@+id/nav_route"
+                android:checkable="true"
+                android:icon="@android:drawable/ic_menu_mylocation"
+                android:title="Как добраться" />
+        </menu>
+    </item>
+</menu>
